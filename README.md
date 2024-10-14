@@ -5,12 +5,12 @@ This is a highly modified version of openvpi/audio-slicer made for my own person
 
 ## Modificatians done:
 
-- Made quicker workflow for end user by making it to where you just place ```trim.py```  in the folder of audio to trim and execute by ``` cd \yourpath\audio\wav trim.py ```
+- Made quicker workflow for end user by making it to where you just place ```trim.py```  in a folder of audio files and execute by ``` cd \yourpath\audio\wav trim.py ```
 - Improved script by allowing the removal of silence from all .wav files in a folder instead of one at a time
+-  Output Directory: Created a "trimmed" folder within the current working directory to store output files.
 - CLI Integration: Added argparse for command-line argument parsing.
 - Silence Detection: Modified the Slicer class to only trim silence without adding a "_trimmed" suffix.
 - Audio Length Enforcement: Introduced a function to pad or truncate audio to a fixed length (default: 8 seconds). (DOESN'T WORK YET)
-- Output Directory: Created a "trimmed" folder within the current working directory to store output files.
 - No Filename Changes: Ensured output filenames remain unchanged (no "_trimmed" suffix).
 
 ## What I use this script for:
