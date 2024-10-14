@@ -1,7 +1,11 @@
-# audio-trim
+# Audio Trim
+
 Python script that slices audio with silence detection
----------------------------------------------------
+
+
 This is a highly modified version of openvpi/audio-slicer made for my own personal use
+
+---
 
 ## Modificatians done:
 
