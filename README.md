@@ -13,6 +13,9 @@ This is a highly modified version of openvpi/audio-slicer made for my own person
 - Output Directory: Created a "trimmed" folder within the current working directory to store output files.
 - No Filename Changes: Ensured output filenames remain unchanged (no "_trimmed" suffix).
 
+# Original source code:
+(https://github.com/openvpi/audio-slicer)
+
 # Algorithm
 Silence detection:
 This script uses RMS (root mean score) to measure the quiteness of the audio and detect silent parts. RMS values of each frame (frame length set as hop size) are calculated and all frames with an RMS below the threshold will be regarded as silent frames.
