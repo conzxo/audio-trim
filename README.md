@@ -14,7 +14,7 @@ This is a highly modified version of openvpi/audio-slicer made for my own person
 -  Output Directory: Created a "trimmed" folder within the current working directory to store output files.
 - CLI Integration: Added argparse for command-line argument parsing.
 - Silence Detection: Modified the Slicer class to only trim silence without adding a "_trimmed" suffix.
-- Audio Length Enforcement: Introduced a function to pad or truncate audio to a fixed length (default: 8 seconds). (DOESN'T WORK YET)
+- Audio Length Enforcement: Introduced a function to pad or truncate audio to a fixed length (default: 8 seconds).
 - No Filename Changes: Ensured output filenames remain unchanged (no "_trimmed" suffix).
 
 ## What I use this script for:
